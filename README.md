@@ -1,3 +1,3 @@
-# too-wierd
+# eclectric oil
 
-Works in progress.
+Too good not to share.
