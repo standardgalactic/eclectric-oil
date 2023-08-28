@@ -1,3 +1,3 @@
-# Eclectric oil
+# Eclectric Oil
 
 Too good not to share.
