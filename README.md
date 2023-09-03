@@ -1,7 +1,5 @@
 # Eclectric Oil
 
-Too good not to share.
-
 ## Glossary of Difficult Terms
 
 1. Deontological Objectivism: A moral philosophy that asserts the existence of objective moral principles and duties that guide ethical behavior, regardless of consequences.
