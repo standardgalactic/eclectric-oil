@@ -45,3 +45,6 @@ Too good not to share.
 1. Blueprint: A detailed plan or design that serves as a guide for creating something.
 
 1. Anything Goes: A concept suggesting a lack of strict rules or limitations, often associated with open-mindedness and flexibility.
+
+𝘚𝘶𝘮𝘮𝘢𝘳𝘺 𝘰𝘧 𝘵𝘩𝘦 𝘤𝘰𝘯𝘷𝘦𝘳𝘴𝘢𝘵𝘪𝘰𝘯
+"𝘚𝘦𝘭𝘧-𝘈𝘴𝘴𝘦𝘮𝘣𝘭𝘪𝘯𝘨 𝘐𝘥𝘦𝘢𝘴"
