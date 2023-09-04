@@ -1,5 +1,8 @@
 # Eclectric Oil
 
+Mind-making Machines
+[[https://github.com/standardgalactic/audiobooks/blob/main/mind-making-machines.mp3]]
+
 ## Glossary of Difficult Terms
 
 1. Deontological Objectivism: A moral philosophy that asserts the existence of objective moral principles and duties that guide ethical behavior, regardless of consequences.
