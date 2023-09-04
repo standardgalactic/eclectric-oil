@@ -1,7 +1,7 @@
 # Eclectric Oil
 
 Mind-making Machines
-[[https://github.com/standardgalactic/audiobooks/blob/main/mind-making-machines.mp3]]
+https://github.com/standardgalactic/audiobooks/blob/main/mind-making-machines.mp3
 
 ## Glossary of Difficult Terms
 
