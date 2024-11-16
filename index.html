@@ -4,15 +4,32 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dr. Thomas' Eclectric Oil: A Cautionary Tale</title>
+    <style>
+        body.dark-mode {
+            background-color: #000;
+            color: white;
+        }
+        img.dark-mode {
+            filter: invert(100%);
+        }
+    </style>
 </head>
-<body>
-<img src="eclectric-oil.png" alt="Dr. Thomas' Eclectric Oil Bottle" style="max-width: 100%; height: auto;">
-<img src="eclectric-oil-cursive-galactic.png" alt="Dr. Thomas' Eclectric Oil Galactic Edition" style="max-width: 100%; height: auto;">
- 
-<header>
+<body class="dark-mode">
+    <button onclick="toggleDarkMode()">Toggle Dark Mode</button>
+
+    <img src="new_eclectric-oil.png" alt="Dr. Thomas' Eclectric Oil Bottle" style="max-width: 100%; height: auto;" id="mainImage">
+    <img src="new_eclectric-oil-cursive-galactic.png" alt="Dr. Thomas' Eclectric Oil Galactic Edition" style="max-width: 100%; height: auto;" id="galacticImage">
+    
+    <!-- Additional Images -->
+    <img src="new_eclectric-oil-01.png" alt="Eclectric Oil Variant 1" class="additional-image" style="max-width: 100%; height: auto;">
+    <img src="new_eclectric-oil-02.png" alt="Eclectric Oil Variant 2" class="additional-image" style="max-width: 100%; height: auto;">
+    <img src="new_eclectric-oil-03.png" alt="Eclectric Oil Variant 3" class="additional-image" style="max-width: 100%; height: auto;">
+    <img src="new_eclectric-oil-04.png" alt="Eclectric Oil Variant 4" class="additional-image" style="max-width: 100%; height: auto;">
+
+    <header>
         <h1>Dr. Thomas' Eclectric Oil: A Cautionary Tale of Patent Medicine</h1>
     </header>
-    <main>
+     <main>
         <section>
             <h2>The Rise of Eclectric Oil</h2>
             <p>Dr. Thomas' Eclectric Oil was concocted by Dr. Samuel N. Thomas in Phelps, New York. The product capitalized on two major elements: the mystical allure of new scientific advances, particularly electricity, and the public's desperate need for affordable healthcare solutions. The term "Eclectric" itself, a blend of 'eclectic' and 'electric,' cleverly alluded to its supposed modernity and effectiveness. Yet, the contents of the bottle were far from revolutionary, comprising primarily of turpentine and camphor oil—substances known for their pungent odor and harsh properties, along with a variety of other oils like eucalyptus and thyme, which provided a more pleasant scent.</p>
@@ -38,6 +55,24 @@
         <p>© 2024 Eclectric Oil. All rights reserved.</p>
         <p>For further information see <a href="https://en.wikipedia.org/wiki/Dr._Thomas%27_Eclectric_Oil">Wikipedia</a>.</p>
     </footer>
+
+    <script>
+        function toggleDarkMode() {
+            var body = document.body;
+            var mainImage = document.getElementById('mainImage');
+            var galacticImage = document.getElementById('galacticImage');
+            var additionalImages = document.querySelectorAll('.additional-image');
+            
+            // Toggle dark mode styles
+            body.classList.toggle('dark-mode');
+
+            // Toggle image sources for dark mode
+            mainImage.src = mainImage.src.includes('new_') ? 'eclectric-oil.png' : 'new_eclectric-oil.png';
+            galacticImage.src = galacticImage.src.includes('new_') ? 'eclectric-oil-cursive-galactic.png' : 'new_eclectric-oil-cursive-galactic.png';
+            additionalImages.forEach((img) => {
+                img.src = img.src.includes('new_') ? img.src.replace('new_', '') : img.src.replace('eclectric-oil-', 'new_eclectric-oil-');
+            });
+        }
+    </script>
 </body>
 </html>
-
