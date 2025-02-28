@@ -1,5 +1,7 @@
 # Eclectric Oil
 
+![](too-good-not-to-share.png)
+
 ## Dr. Thomas' Eclectric Oil: A Cautionary Tale of Patent Medicine
 
 In the annals of medical history, few products exemplify the unchecked audacity of early patent medicines as vividly as Dr. Thomas' Eclectric Oil. Born in the mid-19th century and surviving well into the early 20th century, this concoction promised relief from a litany of ailments, from minor toothaches to severe muscle pains. However, the story of Eclectric Oil is more than a historical curiosity; it serves as a profound cautionary tale about the dangers of unregulated health products and the importance of scientific validation in medicine.
